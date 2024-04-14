@@ -11,6 +11,7 @@
 		CB6408F52BCBF2320085E483 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6408F42BCBF2320085E483 /* ContentView.swift */; };
 		CB6408F72BCBF2340085E483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6408F62BCBF2340085E483 /* Assets.xcassets */; };
 		CB6408FB2BCBF2340085E483 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6408FA2BCBF2340085E483 /* Preview Assets.xcassets */; };
+		CB6409022BCBF8650085E483 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CB6409012BCBF8650085E483 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		CB6408F62BCBF2340085E483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6408F82BCBF2340085E483 /* SVGSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SVGSample.entitlements; sourceTree = "<group>"; };
 		CB6408FA2BCBF2340085E483 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB6409012BCBF8650085E483 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		CB6408E62BCBF2320085E483 = {
 			isa = PBXGroup;
 			children = (
+				CB6409012BCBF8650085E483 /* README.md */,
 				CB6408F12BCBF2320085E483 /* SVGSample */,
 				CB6408F02BCBF2320085E483 /* Products */,
 			);
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6409022BCBF8650085E483 /* README.md in Resources */,
 				CB6408FB2BCBF2340085E483 /* Preview Assets.xcassets in Resources */,
 				CB6408F72BCBF2340085E483 /* Assets.xcassets in Resources */,
 			);
