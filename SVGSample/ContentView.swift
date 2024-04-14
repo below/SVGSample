@@ -12,6 +12,9 @@ struct ContentView: View {
         VStack {
             Image("plus")
                 .imageScale(.large)
+            Image("plus_green")
+                .imageScale(.large)
+
         }
         .padding()
     }
