@@ -4,7 +4,11 @@ Why do Xcode / iOS / macOS see colors in an SVG file differently than the Finder
 
 ## Primary Objective
 
-I wanted to create a dark mode image from an existing SVG using [Inkscape](https://inkscape.org), but apparently Xcode does not honor the color change (whereas the finder does).
+I wanted to create a dark mode image from an existing SVG using [Inkscape](https://inkscape.org), but apparently Xcode does not honor the color change (whereas the Finder does).
+
+## UPDATE:
+
+There is a discussion about this on the [Inkscape Forums](https://inkscape.org/forums/questions/svgs-import-but-dont-display-correctlyfully/?c=70115#c70115).
 
 ## The Setup
 
@@ -12,7 +16,7 @@ I am using a simple image here as sample: ![A plus sign in dark grey](SVGSample/
 
 Then, using Inkscape, I colored this image green: ![A plus sign in green](SVGSample/Assets.xcassets/plus_green.imageset/plus_green.svg)
 
-Notice that your browser should be displaying this plus sign in green. The same goes for the finder, when you look at the file in QuickLook. Further, these images are taken directly from the sample project.
+Notice that your browser should be displaying this plus sign in green. The same goes for the Finder, when you look at the file in QuickLook. Further, these images are taken directly from the sample project.
 
 When you open the sample project and look at the assets, you will notice that the images look identical:
 
